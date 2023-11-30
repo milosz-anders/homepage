@@ -1,0 +1,18 @@
+.body {
+    background-color: #000814;
+    color: white;
+    font-family: "Lato", sans-serif;
+    margin: auto;
+    max-width: 1000px;
+    font-weight: 400;
+    font-size: 18px;
+    overflow-x: auto;
+    padding: 10px 20px 0px 20px;
+    line-height: 1.5;
+}
+
+.body--highContrast {
+    background-color: #fff;
+    color: black;
+
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miłosz Anders - strona o mnie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script defer src="/js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <button class="header__button js-button"><span class="js-themeName">Włącz tryb wysokiego
+                kontrastu</span></button>
+        <h1 class="header__title js-headerTitle">Oto ja - Miłosz Anders</h1>
+    </header>
+    <nav>
+        <ul class="navigation js-navigation">
+            <li class="navigation__item js-navigationItem"><a class="navigation__link" href="#o-mnie">O
+                    mnie</a></li>
+            <li class="navigation__item js-navigationItem"><a class="navigation__link"
+                    href="#ulubiona-muzyka">Ulubiona muzyka</a></li>
+            <li class="navigation__item js-navigationItem"><a class="navigation__link"
+                    href="#czas-wolny">Czas wolny</a></li>
+            <li class="navigation__item js-navigationItem"><a class="navigation__link"
+                    href="#aktualne-wyzwania">Aktualne wyzwania</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h2 class="article__title" id="o-mnie">Kilka słów o mnie</h2>
+                <img class="article__image" src="/img/zdj_ma.jpg" alt="Zdjęcie Miłosza Andersa">
+                <p>Jestem absolwentem Uniwersytetu Warmińsko-Mazurskiego w Olsztynie, gdzie ukończyłem studia
+                    magisterskie na kierunku
+                    <span class="article__important">geodezja i kartografia.</span>
+                    Obecnie pracuję jako
+                    <strong>analityk biznesowo-systemowy</strong>. Na co dzień mieszkam w Warszawie.
+                    <br>
+                </p>
+            </article>
+            <article>
+                <h2 class="article__title" id="ulubiona-muzyka">Moja ulubiona muzyka</h2>
+                <p>Nie mam ulubionego gatunku muzycznego - podobają mi się utwory Artystów tworzących różną muzykę:
+                    rock, pop, jazz, dance. To, czego szukam w muzyce, to autentyczności, prawdziwych emocji oraz
+                    tego, czy słowa piosenek dotykają bliskich mi wartości. Do grona moich ulubionych Artystów i
+                    Zespołów należą m.in.: Anna Maria Jopek, Kasia Kowalska, Katarzyna Nosowska, Juliette Lewis,
+                    Sophie Ellis Bextor, Amy Macdonald, Brainstorm, OneRepublic, Gotye.
+                </p>
+            </article>
+            <article>
+                <h2 class="article__title" id="czas-wolny">W wolnym czasie...</h2>
+                <p>W wolnym czasie uwielbiam przede wszystkim spacerować z moim psem. Ponadto jeżdżę rowerem i
+                    biegam. Oglądam także filmy, przede wszystkim związane z atronomią oraz UFO. Nierzdko wychodzę
+                    do kina, teatru czy na koncert. Dużo przyjemności sprawia mi gotowanie. Wieczory uwielbiam
+                    spędzać z książką, zwłaszcza literaturą piękną i poezją.</p>
+            </article>
+            <article>
+                <h2 class="article__title" id="aktualne-wyzwania">Moje aktualne wyzwania</h2>
+                <p>Jest ich kilka, niektóre już zostały ropoczęte, a niektóre jeszcze przede mną. Więcej o nich
+                    znajdziesz w tabeli poniżej.</p>
+                <table class="table">
+                    <caption class="table__caption">Lista wyzwań</caption>
+                    <thead>
+                        <tr class="table__row js-tableRow">
+                            <th class="table__cell js-tableCell table__cell--header" scope="col">Wyzwanie</th>
+                            <th class="table__cell js-tableCell table__cell--header" scope="col">Partner</th>
+                            <th class="table__cell js-tableCell table__cell--header" scope="col">Status</th>
+                            <th class="table__cell js-tableCell table__cell--header" scope="col">Planowane zakończenie
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__row js-tableRow">
+                            <th class="table__cell js-tableCell table__cell--header" scope="row">Frontend developer od
+                                podstaw</th>
+                            <td class="table__cell js-tableCell">youcode</td>
+                            <td class="table__cell js-tableCell">rozpoczęte</td>
+                            <td class="table__cell js-tableCell">Q1 2024</td>
+                        </tr>
+                        <tr class="table__row js-tableRow">
+                            <th class="table__cell js-tableCell table__cell--header" scope="row">Angielski w pracy
+                            </th>
+                            <td class="table__cell js-tableCell">Angielskie Skrzydła</td>
+                            <td class="table__cell js-tableCell">rozpoczęte</td>
+                            <td class="table__cell js-tableCell">Q4 2023</td>
+                        </tr>
+                        <tr class="table__row js-tableRow">
+                            <th class="table__cell js-tableCell table__cell--header" scope="row">Certification in
+                                Business Data Analytics
+                            </th>
+                            <td class="table__cell js-tableCell">IIBA</td>
+                            <td class="table__cell js-tableCell">zaplanowane</td>
+                            <td class="table__cell js-tableCell">Q2 2024</td>
+                        </tr>
+                        <tr class="table__row js-tableRow">
+                            <th class="table__cell js-tableCell table__cell--header" scope="row">Podstawy języka
+                                włoskiego</th>
+                            <td class="table__cell js-tableCell">-</td>
+                            <td class="table__cell js-tableCell">zaplanowane</td>
+                            <td class="table__cell js-tableCell">Q3 2024</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="table__row js-tableRow">
+                            <th class="table__cell js-tableCell table__cell--header" scope="row" colspan="3">Suma
+                                wyzwań</th>
+                            <td class="table__cell js-tableCell">4</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+        </section>
+    </main>
+    <footer class="footer js-footer">
+        <p>Copyright © 2023 Miłosz Anders</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.footer {
+    background-color: #001d3d;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+
+.footer--highContrast {
+    background-color: black;
+}

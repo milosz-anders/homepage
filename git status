@@ -1,0 +1,65 @@
+[33mcommit 3f1490c6dc73c51ba5ccd239c628d4cfef4487ac[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Tue Dec 12 19:41:39 2023 +0100
+
+    JS functions refactoring
+
+[33mcommit 806f3108eecb02eec9505c114a40508a9ace7a50[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Sun Dec 3 13:37:56 2023 +0100
+
+    Added page icon
+
+[33mcommit c0625fb0e1845e8bd98e31ea3ce843aeb3e8778c[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Sun Dec 3 12:50:41 2023 +0100
+
+    Altered meta property og:image
+
+[33mcommit a218dd20b9e85ab159158789a1a1b369516785f1[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Sun Dec 3 12:49:35 2023 +0100
+
+    Altered share.png
+
+[33mcommit e49625173b27fe6cea43bba10266a34b47522d95[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Sun Dec 3 12:37:13 2023 +0100
+
+    Added meta property og:image
+
+[33mcommit b361791152ffc523e6f7ae3a4a1e0995481722ac[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Sun Dec 3 12:36:17 2023 +0100
+
+    Added share.png
+
+[33mcommit 9c56bb23c9c13ec03b3e6ab3b2699cd35bc54a56[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Sun Dec 3 11:41:30 2023 +0100
+
+    Added README.md file
+
+[33mcommit 2a333a91cca8a899a8da8f672dd961231af6cdc1[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Fri Dec 1 10:41:58 2023 +0100
+
+    Changed javascript path
+
+[33mcommit a3c5a2c6468b5c61e04f187fcddc6487a820a9c3[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Thu Nov 30 20:14:02 2023 +0100
+
+    Changed image source path
+
+[33mcommit 1c2a1e115b57349a315722873354288b11cafabe[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Thu Nov 30 20:09:28 2023 +0100
+
+    Changed header title
+
+[33mcommit 3670fd3a37039fd77170688d6420714e0906c616[m
+Author: Milosz Anders <milosz.anders@gmail.com>
+Date:   Thu Nov 30 18:59:05 2023 +0100
+
+    Initial commit
